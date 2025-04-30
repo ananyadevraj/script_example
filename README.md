@@ -1,11 +1,13 @@
 # Master Client List Automation Script 
-A script to automate master client list generation from multiple monthly client enrollment sheets across programs. 
+<strong>A script to automate master client list generation from multiple monthly client enrollment sheets across programs, implemented on the backend of a Streamlit UI app. </strong>
+
 
 <ul>
-  <li>This repository includes the base script for the automated master client list generation, implemented on the backend of a Streamlit UI app.</li>
-  <li> The user can upload many monthly sheets of clients engaged across various programs, and receive a clean, easily readable master client list.</li>
-  <li>Includes a duplicate checker function to merge clients that appear on multiple sheets.</li>
-  <li>Tracks program enrollment through one-hot encoding, and identifies clients who are 'Dually Enrolled' across two programs or more.</li>
+  <li> The user can upload many monthly sheets of clients engaged across various programs, and receive an easily readable master client list.</li>
+  <li> Cleans each monthly sheet and prepares it for processing to merge with all other sheets.</li>
+  <li>Automatically creates one-hot encoding columns to track client activity across each program. </li>
+  <li>Includes a duplicate checker function to merge clients that appear on multiple sheets and update their data accordingly.</li>
+  <li>Identifies clients who are 'Dually Enrolled' across two programs or more based on the created one-hot encoded columns.</li>
 </ul>
 
 ### Streamlit App Flow

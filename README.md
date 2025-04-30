@@ -1,7 +1,8 @@
 # Master Client List Automation Script 
 <strong>A script to automate master client list generation from multiple monthly client enrollment sheets across programs, implemented on the backend of a Streamlit UI app. </strong>
-
-<ul>  `automating_master_client_list_generation.py`
+`automating_master_client_list_generation.py`
+<br />
+<ul> 
   <li> The user can upload many monthly sheets of clients engaged across various programs, and receive an easily readable master client list.</li>
   <li> Cleans each monthly sheet and prepares it for processing to merge with all other sheets.</li>
   <li>Automatically creates one-hot encoding columns to track client activity across each program. </li>
